@@ -14,7 +14,7 @@ export class FillSprite {
 
     @testCase
     async play() {
-        for (let i = 0; i < 11; i++) {
+        for (let i = 0; i < 10; i++) {
             await screenshot_custom(this._dt);
         }
         await screenshot_custom(this._dt * 2);
