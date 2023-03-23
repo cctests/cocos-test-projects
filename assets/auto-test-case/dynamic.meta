@@ -2,15 +2,7 @@
   "ver": "1.1.0",
   "importer": "directory",
   "imported": true,
-<<<<<<< HEAD
   "uuid": "3ccfbeec-8f12-443a-ae5d-ea057d1130ca",
-=======
-<<<<<<< HEAD:assets/auto-test-case/dynamic/2D.meta
-  "uuid": "3fbc9bf7-7d2d-4831-a2e9-336e4d6efbcf",
-=======
-  "uuid": "3ccfbeec-8f12-443a-ae5d-ea057d1130ca",
->>>>>>> 06e3e273 (添加 v0.4.3 版本提测的 148 个测试脚本 (#741)):assets/auto-test-case/dynamic.meta
->>>>>>> 06e3e273 (添加 v0.4.3 版本提测的 148 个测试脚本 (#741))
   "files": [],
   "subMetas": {},
   "userData": {
