@@ -1,7 +1,7 @@
 import {  EventTouch, Touch, Input, BaseNode } from 'cc';
 
 //模拟触摸开始
-export function simulateTouchStart(x: number, y: number,node?: Node){
+export function simulateTouchStart(x: number, y: number,node?: BaseNode){
     let changeTouch:Touch[] = [];
     let touch = new Touch(x, y);
     changeTouch.push(touch);
