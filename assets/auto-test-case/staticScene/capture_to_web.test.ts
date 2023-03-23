@@ -9,9 +9,7 @@ export class CaptureToWeb {
 
     @testCase
     async startPlay() {
-        //截取第一张模糊图片
         await screenshot_custom(this._dt);
-        //截取变化后的清晰图片
         // await sleep(this._dt);
         await screenshot_custom(this._dt * 60);
     }

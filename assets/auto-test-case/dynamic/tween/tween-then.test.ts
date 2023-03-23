@@ -21,7 +21,11 @@ export class TweenThen {
 
     @testCase
     async end() {
+<<<<<<< HEAD
         await screenshot_custom(this._dt + 100);
+=======
+        await screenshot_custom(this._dt * 100);
+>>>>>>> 06e3e273 (添加 v0.4.3 版本提测的 148 个测试脚本 (#741))
     }
 
 }
