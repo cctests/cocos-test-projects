@@ -13,11 +13,7 @@ export class DragonMesh {
     async startLoad() {
         // await screenshot_custom(this._dt);
         this._totalFrames = director.getTotalFrames();
-<<<<<<< HEAD
         for (let i = 0; i < 2; i++) {
-=======
-        for (let i = 0; i < 3; i++) {
->>>>>>> 06e3e273 (添加 v0.4.3 版本提测的 148 个测试脚本 (#741))
             await screenshot_custom_by_wait(this._dt*(i+1)+this._totalFrames-director.getTotalFrames());
         }
     };
@@ -58,11 +54,7 @@ export class DragonMesh {
             // director.pause();
             // await screenshot_custom(this._dt);
             await this.loadResource();
-<<<<<<< HEAD
             for (let i = 0; i < 2; i++) {
-=======
-            for (let i = 0; i < 3; i++) {
->>>>>>> 06e3e273 (添加 v0.4.3 版本提测的 148 个测试脚本 (#741))
                 await screenshot_custom_by_wait((this._dt+2)*(i+4)+this._totalFrames-director.getTotalFrames());
             }
             
